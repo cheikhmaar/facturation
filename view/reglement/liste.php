@@ -22,7 +22,6 @@
             <div class="panel-body">
                 <table class="table">
                     <tr>
-                        <td>ID</td>
                         <td>Date</td>
                         <td>Facture</td>
                     </tr>
@@ -31,7 +30,6 @@
                         $reglements = listeReglement()->fetchAll();
                         foreach ($reglements as $key => $value) {
                             echo "<tr>
-                                    <td>$value[0]</td>
                                     <td>$value[1]</td>
                                     <td>$value[2]</td>
                                 </tr>";
